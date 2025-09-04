@@ -1,5 +1,0 @@
-[build]
-buildCommand = "cd api && pip install -r requirements.txt"
-
-[deploy]
-startCommand = "cd api && python app.py"
