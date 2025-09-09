@@ -1,3 +1,7 @@
+
+Alternatively, add an install stepl
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=69.0.0 before installing requirements (in your workflow):
+
+", "wheel"]
 build-backend = "setuptools.build_meta"
