@@ -1783,7 +1783,6 @@ if __name__ == '__main__':
     print("\n📈 All endpoints now use real SQLite3 database!")
     print("Background data updater running to simulate fresh data...")
     
-    if __name__ == '__main__':
-        import os
-        port = int(os.environ.get('PORT', 5000))
-        app.run(debug=False, host='0.0.0.0', port=port)
+    if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=5000)
