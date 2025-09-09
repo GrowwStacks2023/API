@@ -1,6 +1,6 @@
+uvicorn[standard]==0.34.3
+setuptools>=65.5.0
+wheel>=0.37.1
 Flask==3.0.0
 pandas==2.0.3
 numpy==1.24.4
-uvicorn[standard]==0.34.3
-setuptools>=49.0.0
-wheel>=0.36.0
